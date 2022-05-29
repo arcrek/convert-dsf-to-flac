@@ -12,4 +12,3 @@ for i in range(len(files)):
       .output(nameOfFile + '.flac')
       .run()
     )
-    # os.system("ffmpeg.exe -i" + " " + nameOfFile + fileExtension + " " + nameOfFile + '.flac')
